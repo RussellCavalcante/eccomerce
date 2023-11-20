@@ -92,12 +92,12 @@ WSGI_APPLICATION = 'loja.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': 'dpg-cldpig8hgaic73bm648g-a.oregon-postgres.render.com',
         'NAME': 'eccomerce_db',
         'PORT': 5432,
         'USER': 'admin',
-        'PASSWORD': 'qZjyOIstTer0SN2km0M1x4S821diCPXH   '
+        'PASSWORD': 'qZjyOIstTer0SN2km0M1x4S821diCPXH'
     }
 }
 
